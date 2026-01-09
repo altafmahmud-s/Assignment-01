@@ -69,12 +69,22 @@ a{
     text-align: center;
 
 }
+.banner-containt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .bt{
+    gap: 10px;
     background-color: white;
-    width: full;
     padding: 8px 12px 8px 12px;
     border-radius: 100px;
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     
 }
 .bt span{
@@ -83,14 +93,14 @@ a{
     display: inline;
     
 }
-/* .bt div{
+.dot{
     width: 10px;
     height: 10px;
     background-color: #469165;
     border-radius: 100px;
     float: left;
     display: inline;
-} */
+}
 .bann_head{
     font-size: 72px;
     font-weight: bold;
