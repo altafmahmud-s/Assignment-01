@@ -12,6 +12,9 @@
   font-optical-sizing: auto;
 }
 
+section{
+    margin: 120px;
+}
 
 /* Header */
 
@@ -107,3 +110,63 @@ a{
     line-height: 24px;
 }
 
+.banner_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.ban_btns{
+    padding: 16px;
+}
+
+/* Notes Section */
+
+
+.Notes_Section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.note_Head{
+    font-size: 48px;
+    font-weight: bold;
+}
+.note_card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+.note_p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.note_item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    height: full;
+
+}
+.item_head{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0px 16px 0px;
+    text-align: center;
+}
+.item_p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    text-align: center;
+}
