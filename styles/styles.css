@@ -11,6 +11,10 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+
+/* Header */
+
 header{
     background-color: #FFFFFF;
     max-width: 1600px;
@@ -45,3 +49,61 @@ a{
     border: none;
     border-radius: 4px;
 }
+
+
+/* banner */
+
+
+
+#banner{
+    background-image: url("./../images/hero-bg.png");
+    width: full;
+    height: 674px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.bt{
+    background-color: white;
+    width: full;
+    padding: 8px 12px 8px 12px;
+    border-radius: 100px;
+    display: inline;
+    
+}
+.bt span{
+    color: #469165;
+    font-weight: bold;
+    display: inline;
+    
+}
+/* .bt div{
+    width: 10px;
+    height: 10px;
+    background-color: #469165;
+    border-radius: 100px;
+    float: left;
+    display: inline;
+} */
+.bann_head{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    line-height: 84px;
+    margin-top: 24px;
+}
+.bann_head span{
+    color: #469165;
+}
+.bann_p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
