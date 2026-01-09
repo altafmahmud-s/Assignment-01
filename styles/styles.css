@@ -114,10 +114,24 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 10px;
 }
 .ban_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     padding: 16px;
+    color: white;
+    border-radius: 4px;
+}
+.banner_btn1{
+    background-color: #469165;
+    border: none;
+}
+.banner_btn2{
+    background-color: transparent;
+    border: 2px solid white;
 }
 
 /* Notes Section */
@@ -169,4 +183,41 @@ a{
     color: #627382;
     line-height: 20px;
     text-align: center;
+}
+
+
+
+/* Brain Section */
+
+.brain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brain_msg{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+}
+
+.brain_title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.brain_dis{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain_check p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
