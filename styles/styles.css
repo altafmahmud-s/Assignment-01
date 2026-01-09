@@ -245,3 +245,30 @@ a{
     margin-bottom: 24px;
     color: #627382;
 }
+footer{
+    background-color: #001931;
+    padding-top: 120px;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.footer_icon p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    line-height: 28px;
+}
+.copy{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer{
+    margin-bottom: 0px;
+}
