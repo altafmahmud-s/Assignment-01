@@ -15,6 +15,9 @@
 section{
     margin: 120px;
 }
+.btn_hover:hover{
+    background-color: #001931;
+}
 
 /* Header */
 
@@ -281,4 +284,9 @@ footer{
 }
 .footer{
     margin-bottom: 0px;
+}
+.footer_icons{
+    display: flex;
+    
+    gap: 15px;
 }
