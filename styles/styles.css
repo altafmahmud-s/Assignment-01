@@ -221,3 +221,27 @@ a{
     align-items: center;
     gap: 4px;
 }
+
+.Early_Access{
+    background-color: #F7F6F2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Early_Access_title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.Early_Access_msg{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: #627382;
+}
